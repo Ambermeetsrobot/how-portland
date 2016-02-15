@@ -4,10 +4,11 @@ $(document).ready(function() {
     var gender = $("select#gender").val();
     var style = $("select#style").val();
 
-    var profile = function("skinny-jeans") { alert(return "You are a hipster"); };
+//Need help figuring this part out
+    var profile = style;
 
-    if (style ==== 'skinny-jeans') {
-      profile1;
+    if (style === 'skinny-jeans') {
+      profile = "You are a hipster";
     }
 
       // if (style ==== 'polo-shirts') {
