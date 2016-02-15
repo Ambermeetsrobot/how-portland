@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <head>
+    <title>Form Factor</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+  </head>
+
+
+  <body>
+    <div class="container">
+    <h1>What's your Portland profile?</h1>
+    <p>To find out your Portland style, enter the following information</p>
+
+    <form id="portland-profile" class="col-md-6">
+
+      <div class="form-group">
+        <label for="age">Age</label>
+        <input id="age" class="form-control" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <!-- <input id="gender-type" class="form-control" type="text"> -->
+        <select id="gender-type" class="form-control">
+          <option value="select">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="fluid">Fluid</option>
+          <option value="trans">Trans</option>
+        </select>
+      </div>
+
+      <div id="style" class="form-group">
+        <label for="man-style">Style</label>
+        <select id="man-style" class="form-control">
+          <option value="select">Select</option>
+          <option value="skinny-jeans">Skinny Jeans and Converse</option>
+          <option value="polo-shirts">Tight polo shirts and baseball hats</option>
+          <option value="joggers">Joggers and Nikes</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">What's my profile?</button>
+    </form>
+    <div id="profile1">"You are a hipster"</div>
+    <div id="profile2">"You are a bro"</div>
+    <div id="profile3">"You're an ad bro."</div>
+    </div>
+
+  </body>
+
+</html>
